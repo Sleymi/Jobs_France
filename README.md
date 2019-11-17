@@ -14,6 +14,7 @@ A folder contains web pages will be created.
 put the path of the folder in the variable "path" in the file parse.py 
 
 """
+
 import scrapy
 import re
 import glob
@@ -25,6 +26,7 @@ class Sp(scrapy.Spider):
     path = "/home/mohamed/Desktop/Jobs-go/res_17_11_2019__08_51_12"
     
     all = glob.glob(path + "/*")
+
 
 """
 
