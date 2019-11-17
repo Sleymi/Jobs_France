@@ -2,11 +2,13 @@
 Get the job in France
 
 version python3
+
 Requirements: requests and scrapy.
 
-Usage
+Usage:
 
 python3 req.py
+
 A folder contains web pages will be created.
 
 put the path of the folder in the variable "path" in the file parse.py 
@@ -27,6 +29,7 @@ class Sp(scrapy.Spider):
 """
 
 then run
+
 scrapy runspider parse.py -o res.csv
 
 the res.csv contains the result of parsing.
