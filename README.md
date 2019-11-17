@@ -9,6 +9,7 @@ Usage
 python3 req.py
 A folder contains web pages will be created.
 put the path of the folder in the variable "path" in the file parse.py 
+
 """
 import scrapy
 import re
